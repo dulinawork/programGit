@@ -31,6 +31,7 @@ public class Car {
     }
 
     public void setAge(int age) {
+        System.out.println("the age is ....");
         this.age = age;
     }
 
@@ -45,4 +46,6 @@ public class Car {
                ", age=" + age +
                ", numberPlate=" + numberPlate + "]";
     }
+
+
 }
